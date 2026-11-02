@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SHOP_NAME – Cars, Spare Parts, Repair & Car Wash in YOUR_AREA</title>
+<meta name="description" content="SHOP_NAME in YOUR_AREA: used and new cars, genuine auto spare parts, vehicle repair, foam wash and water wash. Call or visit today.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "SHOP_NAME",
+  "url": "https://autospares.work.gd",
+  "telephone": "+91PHONE_NUMBER",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "STREET_ADDRESS",
+    "addressLocality": "CITY",
+    "addressRegion": "STATE",
+    "postalCode": "PINCODE",
+    "addressCountry": "IN"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": "LATITUDE", "longitude": "LONGITUDE" },
+  "openingHours": "Mo-Sa 09:00-19:00"
+}
+</script>
+<style>
+:root{
+  --ink:#0e2a36; --ink-2:#2f4a57; --bg:#eef2f4; --card:#ffffff;
+  --petrol:#0f3b4c; --signal:#f2b705; --line:#cfd9de; --on-petrol:#f4f8fa;
+  --disp:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--ink:#e6eef2; --ink-2:#a9bcc6; --bg:#0a1a21; --card:#112733; --line:#24404d;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;font-family:var(--body);color:var(--ink);background:var(--bg);line-height:1.55;font-size:17px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--signal);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header.top{background:var(--petrol);color:var(--on-petrol)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.brand{font-family:var(--disp);font-weight:700;font-size:26px;letter-spacing:.02em;text-decoration:none}
+nav a{margin-left:18px;text-decoration:none;font-weight:500;font-size:15px;opacity:.9}
+nav a:hover{opacity:1;text-decoration:underline}
+.hero{padding:56px 0 64px}
+.hero h1{font-family:var(--disp);font-weight:700;font-size:clamp(44px,9vw,92px);line-height:.95;margin:0 0 18px;max-width:11ch}
+.hero p{max-width:46ch;font-size:19px;margin:0 0 28px;color:#c9dae2}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:14px 22px;border-radius:6px;font-weight:600;text-decoration:none;font-size:17px;border:2px solid var(--signal)}
+.btn.primary{background:var(--signal);color:#1b1500}
+.btn.ghost{color:var(--on-petrol)}
+.btn:hover{filter:brightness(1.08)}
+section{padding:52px 0}
+h2{font-family:var(--disp);font-weight:700;font-size:38px;margin:0 0 6px}
+.lead{color:var(--ink-2);margin:0 0 26px;max-width:56ch}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.item{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--signal);padding:18px 18px 16px;border-radius:4px}
+.item h3{font-family:var(--disp);font-size:25px;margin:0 0 6px}
+.item p{margin:0;color:var(--ink-2);font-size:16px}
+.price{display:inline-block;margin-top:10px;font-weight:600}
+.split{display:grid;gap:28px;grid-template-columns:1.1fr .9fr}
+@media (max-width:760px){.split{grid-template-columns:1fr}nav a{margin-left:12px}}
+dl{margin:0}
+dt{font-weight:600;margin-top:14px}
+dd{margin:2px 0 0;color:var(--ink-2)}
+.map{border:1px solid var(--line);border-radius:4px;overflow:hidden;background:var(--card);min-height:280px}
+.map iframe{width:100%;height:100%;min-height:300px;border:0;display:block}
+footer{background:var(--petrol);color:var(--on-petrol);padding:26px 0;font-size:15px}
+.wa{position:fixed;right:16px;bottom:16px;background:#25d366;color:#08331a;font-weight:700;padding:13px 18px;border-radius:999px;text-decoration:none;box-shadow:0 3px 10px rgba(0,0,0,.3)}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="bar">
+      <a class="brand" href="#">SHOP_NAME</a>
+      <nav aria-label="Main">
+        <a href="#services">Services</a>
+        <a href="#cars">Cars</a>
+        <a href="#parts">Parts</a>
+        <a href="#visit">Visit us</a>
+      </nav>
+    </div>
+    <div class="hero">
+      <h1>Cars, parts and repairs in one place.</h1>
+      <p>Buy a car, find the spare part you need, or leave your vehicle for repair and a clean wash. Visit us in YOUR_AREA.</p>
+      <div class="btns">
+        <a class="btn primary" href="tel:+91PHONE_NUMBER">Call +91 PHONE_NUMBER</a>
+        <a class="btn ghost" href="MAPS_LINK" target="_blank" rel="noopener">Get directions</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="services">
+  <div class="wrap">
+    <h2>Repair and wash services</h2>
+    <p class="lead">Leave your vehicle with us and we will tell you what it needs before we start work.</p>
+    <div class="grid">
+      <div class="item"><h3>Vehicle repair</h3><p>Diagnosis and repair for cars. Tell us the problem when you call.</p><span class="price">Price on inspection</span></div>
+      <div class="item"><h3>Foam wash</h3><p>Thick foam lifts dirt gently before the rinse, then a clean dry finish.</p><span class="price">From ₹PRICE</span></div>
+      <div class="item"><h3>Water wash</h3><p>Quick pressure rinse for the body and wheels.</p><span class="price">From ₹PRICE</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="cars">
+  <div class="wrap">
+    <h2>Cars for sale</h2>
+    <p class="lead">Call or message us for the cars available now, with photos, price and documents.</p>
+    <div class="grid">
+      <div class="item"><h3>CAR MAKE MODEL, YEAR</h3><p>Fuel, kilometres driven, owner count.</p><span class="price">₹PRICE</span></div>
+      <div class="item"><h3>CAR MAKE MODEL, YEAR</h3><p>Fuel, kilometres driven, owner count.</p><span class="price">₹PRICE</span></div>
+      <div class="item"><h3>CAR MAKE MODEL, YEAR</h3><p>Fuel, kilometres driven, owner count.</p><span class="price">₹PRICE</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="parts">
+  <div class="wrap">
+    <h2>Auto spare parts</h2>
+    <p class="lead">Send us your vehicle model and the part name on WhatsApp, and we will confirm if it is in stock.</p>
+    <div class="grid">
+      <div class="item"><h3>Engine and filters</h3><p>Oil, air and fuel filters, belts, spark plugs.</p></div>
+      <div class="item"><h3>Brakes and suspension</h3><p>Brake pads, discs, shock absorbers, bushes.</p></div>
+      <div class="item"><h3>Electrical and body</h3><p>Batteries, bulbs, wipers, mirrors, accessories.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="visit">
+  <div class="wrap split">
+    <div>
+      <h2>Visit the shop</h2>
+      <dl>
+        <dt>Address</dt><dd>STREET_ADDRESS, CITY, STATE – PINCODE</dd>
+        <dt>Phone</dt><dd><a href="tel:+91PHONE_NUMBER">+91 PHONE_NUMBER</a></dd>
+        <dt>Hours</dt><dd>Monday to Saturday, 9:00 am to 7:00 pm</dd>
+      </dl>
+      <p style="margin-top:22px"><a class="btn primary" href="MAPS_LINK" target="_blank" rel="noopener">Open in Google Maps</a></p>
+    </div>
+    <div class="map">
+      <iframe title="Shop location on Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="MAP_EMBED_LINK"></iframe>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">SHOP_NAME · STREET_ADDRESS, CITY · +91 PHONE_NUMBER</div>
+</footer>
+
+<a class="wa" href="https://wa.me/91PHONE_NUMBER" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+</body>
+</html>
